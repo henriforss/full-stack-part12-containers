@@ -1,0 +1,48 @@
+Script started on Sat Jan  6 15:55:48 2024
+[1m[7m%[27m[1m[0m                                                                                                                               ]2;privat@macbook-pro:~/Desktop/Kurser etc/full-stack-part12-containers]1;..12-containers]7;file://macbook-pro.home/Users/privat/Desktop/Kurser%20etc/full-stack-part12-containers\[0m[27m[24m[J[31m*[00m[00m[32m[main][00m[36m[~/Desktop/Kurser etc/full-stack-part12-containers][00m[1m$[0m [K[?1h=[?2004hddocker ps -a[?1l>[?2004l
+]2;docker ps -a]1;dockerCONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+feac31a3e8fb   ubuntu        "bash"     21 minutes ago   Exited (0) 41 seconds ago             flamboyant_booth
+5786e37ac895   hello-world   "/hello"   22 minutes ago   Exited (0) 22 minutes ago             intelligent_williamson
+368d7af2b0b3   hello-world   "/hello"   47 minutes ago   Exited (0) 37 minutes ago             intelligent_goldberg
+[1m[7m%[27m[1m[0m                                                                                                                               ]2;privat@macbook-pro:~/Desktop/Kurser etc/full-stack-part12-containers]1;..12-containers]7;file://macbook-pro.home/Users/privat/Desktop/Kurser%20etc/full-stack-part12-containers\[0m[27m[24m[J[31m*[00m[00m[32m[main][00m[36m[~/Desktop/Kurser etc/full-stack-part12-containers][00m[1m$[0m [K[?1h=[?2004hddocker start -i flamboyant_booth[?1l>[?2004l
+]2;docker start -i flamboyant_booth]1;docker[?2004h]0;root@feac31a3e8fb: /root@feac31a3e8fb:/# [K]0;root@feac31a3e8fb: /root@feac31a3e8fb:/# ll
+[?2004ltotal 68
+drwxr-xr-x   1 root root 4096 Jan  6 13:34 [0m[01;34m.[0m/
+drwxr-xr-x   1 root root 4096 Jan  6 13:34 [01;34m..[0m/
+-rwxr-xr-x   1 root root    0 Jan  6 13:34 [01;32m.dockerenv[0m*
+lrwxrwxrwx   1 root root    7 Dec 11 14:04 [01;36mbin[0m -> [01;34musr/bin[0m/
+drwxr-xr-x   2 root root 4096 Apr 18  2022 [01;34mboot[0m/
+drwxr-xr-x   5 root root  360 Jan  6 13:56 [01;34mdev[0m/
+drwxr-xr-x   1 root root 4096 Jan  6 13:54 [01;34metc[0m/
+drwxr-xr-x   2 root root 4096 Apr 18  2022 [01;34mhome[0m/
+lrwxrwxrwx   1 root root    7 Dec 11 14:04 [01;36mlib[0m -> [01;34musr/lib[0m/
+lrwxrwxrwx   1 root root    9 Dec 11 14:04 [01;36mlib32[0m -> [01;34musr/lib32[0m/
+lrwxrwxrwx   1 root root    9 Dec 11 14:04 [01;36mlib64[0m -> [01;34musr/lib64[0m/
+lrwxrwxrwx   1 root root   10 Dec 11 14:04 [01;36mlibx32[0m -> [01;34musr/libx32[0m/
+drwxr-xr-x   2 root root 4096 Dec 11 14:04 [01;34mmedia[0m/
+drwxr-xr-x   2 root root 4096 Dec 11 14:04 [01;34mmnt[0m/
+drwxr-xr-x   2 root root 4096 Dec 11 14:04 [01;34mopt[0m/
+dr-xr-xr-x 266 root root    0 Jan  6 13:56 [01;34mproc[0m/
+drwx------   1 root root 4096 Jan  6 13:54 [01;34mroot[0m/
+drwxr-xr-x   5 root root 4096 Dec 11 14:08 [01;34mrun[0m/
+lrwxrwxrwx   1 root root    8 Dec 11 14:04 [01;36msbin[0m -> [01;34musr/sbin[0m/
+drwxr-xr-x   2 root root 4096 Dec 11 14:04 [01;34msrv[0m/
+dr-xr-xr-x  12 root root    0 Jan  6 13:56 [01;34msys[0m/
+drwxrwxrwt   1 root root 4096 Jan  6 13:54 [30;42mtmp[0m/
+drwxr-xr-x   1 root root 4096 Dec 11 14:04 [01;34musr[0m/
+drwxr-xr-x   1 root root 4096 Dec 11 14:08 [01;34mvar[0m/
+[?2004h]0;root@feac31a3e8fb: /root@feac31a3e8fb:/# cd usr/src/app/
+[?2004l[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# ll
+[?2004ltotal 8
+drwxr-xr-x 2 root root 4096 Jan  6 13:54 [0m[01;34m.[0m/
+drwxr-xr-x 1 root root 4096 Jan  6 13:34 [01;34m..[0m/
+-rw-r--r-- 1 root root    0 Jan  6 13:34 index.js
+[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# nano index.js 
+[?2004l[?2004h[?1049h[22;0;0t[1;46r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[44;57H(B[0;7m[ Reading... ](B[m[44;56H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [47bindex.js [55b [1;126H(B[m[45d(B[0;7m^G(B[m Help[45;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[45;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark[46d(B[0;7m^X(B[m Exit[46;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[2d[?12l[?25h[?25l[1;72H(B[0;7m*[126G(B[m[?12l[?25h[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h"[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h[42m [49m(B[m[?25l[44d[K[?12l[?25h[2;19H W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h![?25l[?12l[?25h[2;13H(B[0;1m[35m"Hello World!"[39m(B[m[?25l[?12l[?25h[2;13H"Hello World![K[?25l[?12l[?25h [?25l[?12l[?25h[2;13H(B[0;1m[35m"Hello World"[39m(B[m[?25l[?12l[?25h)[?25l[3d[?12l[?25h[?25l[44d(B[0;7mSave modified buffer? [104b [45;1H Y(B[m Yes[K[46d(B[0;7m N(B[m No  [46;16H (B[0;7m^C(B[m Cancel[K[44;23H[?12l[?25h[?25l[45d(B[0;7m^G(B[m Help[45;32H(B[0;7mM-D(B[m DOS Format[45;63H(B[0;7mM-A(B[m Append[45;94H(B[0;7mM-B(B[m Backup File[46d(B[0;7m^C(B[m Cancel[17G [8b[32G(B[0;7mM-M(B[m Mac Format[46;63H(B[0;7mM-P(B[m Prepend[46;94H(B[0;7m^T(B[m Browse[44d(B[0;7mFile Name to Write: index.js(B[m[?12l[?25h[?25l[44;56H[1K (B[0;7m[ Writing... ](B[m[K[1;72H(B[0;7m [126G(B[m[44;56H(B[0;7m[ Wrote 2 lines ](B[m[J[46d[?12l[?25h[46;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# cat index.js 
+[?2004lconsole.log("Hello World")
+
+[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                               ]2;privat@macbook-pro:~/Desktop/Kurser etc/full-stack-part12-containers]1;..12-containers]7;file://macbook-pro.home/Users/privat/Desktop/Kurser%20etc/full-stack-part12-containers\[0m[27m[24m[J[31m*[00m[00m[32m[main][00m[36m[~/Desktop/Kurser etc/full-stack-part12-containers][00m[1m$[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sat Jan  6 15:57:03 2024
