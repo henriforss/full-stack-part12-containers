@@ -1,0 +1,42 @@
+Script started on Sat Jan  6 15:33:34 2024
+[1m[7m%[27m[1m[0m                                                                                     ]2;privat@macbook-pro:~/Desktop/Kurser etc/full-stack-part12-containers]1;..12-containers]7;file://macbook-pro.home/Users/privat/Desktop/Kurser%20etc/full-stack-part12-containers\[0m[27m[24m[J[31m*[00m[00m[32m[main][00m[36m[~/Desktop/Kurser etc/full-stack-part12-containers][00m[1m$[0m [K[?1h=[?2004hddocker run -it ubuntu bas [Kh[?1l>[?2004l
+]2;docker run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Ka48641193673: Pulling fs layer [1B[1A[2Ka48641193673: Downloading  310.6kB/29.55MB[1B[1A[2Ka48641193673: Downloading  1.232MB/29.55MB[1B[1A[2Ka48641193673: Downloading  2.784MB/29.55MB[1B[1A[2Ka48641193673: Downloading  4.021MB/29.55MB[1B[1A[2Ka48641193673: Downloading  5.561MB/29.55MB[1B[1A[2Ka48641193673: Downloading  7.105MB/29.55MB[1B[1A[2Ka48641193673: Downloading  8.653MB/29.55MB[1B[1A[2Ka48641193673: Downloading  9.898MB/29.55MB[1B[1A[2Ka48641193673: Downloading  11.14MB/29.55MB[1B[1A[2Ka48641193673: Downloading  12.99MB/29.55MB[1B[1A[2Ka48641193673: Downloading  14.23MB/29.55MB[1B[1A[2Ka48641193673: Downloading  15.77MB/29.55MB[1B[1A[2Ka48641193673: Downloading  17.02MB/29.55MB[1B[1A[2Ka48641193673: Downloading  18.88MB/29.55MB[1B[1A[2Ka48641193673: Downloading  20.74MB/29.55MB[1B[1A[2Ka48641193673: Downloading  21.97MB/29.55MB[1B[1A[2Ka48641193673: Downloading  23.84MB/29.55MB[1B[1A[2Ka48641193673: Downloading  25.39MB/29.55MB[1B[1A[2Ka48641193673: Downloading  26.63MB/29.55MB[1B[1A[2Ka48641193673: Downloading  28.18MB/29.55MB[1B[1A[2Ka48641193673: Verifying Checksum [1B[1A[2Ka48641193673: Download complete [1B[1A[2Ka48641193673: Extracting  327.7kB/29.55MB[1B[1A[2Ka48641193673: Extracting  3.932MB/29.55MB[1B[1A[2Ka48641193673: Extracting  7.209MB/29.55MB[1B[1A[2Ka48641193673: Extracting   8.52MB/29.55MB[1B[1A[2Ka48641193673: Extracting  10.16MB/29.55MB[1B[1A[2Ka48641193673: Extracting  15.07MB/29.55MB[1B[1A[2Ka48641193673: Extracting  20.32MB/29.55MB[1B[1A[2Ka48641193673: Extracting  24.25MB/29.55MB[1B[1A[2Ka48641193673: Extracting  25.56MB/29.55MB[1B[1A[2Ka48641193673: Extracting  25.89MB/29.55MB[1B[1A[2Ka48641193673: Extracting  28.18MB/29.55MB[1B[1A[2Ka48641193673: Extracting  29.16MB/29.55MB[1B[1A[2Ka48641193673: Extracting  29.49MB/29.55MB[1B[1A[2Ka48641193673: Extracting  29.55MB/29.55MB[1B[1A[2Ka48641193673: Pull complete [1BDigest: sha256:6042500cf4b44023ea1894effe7890666b0c5c7871ed83a97c36c76ae560bb9b
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@feac31a3e8fb: /root@feac31a3e8fb:/# ls
+[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;36mlib32[0m  [01;36mlibx32[0m  [01;34mmnt[0m  [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m  [30;42mtmp[0m  [01;34mvar[0m
+[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;36mlib64[0m  [01;34mmedia[0m   [01;34mopt[0m  [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
+[?2004h]0;root@feac31a3e8fb: /root@feac31a3e8fb:/# cd usr
+[?2004l[?2004h]0;root@feac31a3e8fb: /usrroot@feac31a3e8fb:/usr# ll
+[?2004ltotal 64
+drwxr-xr-x 14 root root  4096 Dec 11 14:04 [0m[01;34m.[0m/
+drwxr-xr-x  1 root root  4096 Jan  6 13:34 [01;34m..[0m/
+drwxr-xr-x  2 root root 12288 Dec 11 14:08 [01;34mbin[0m/
+drwxr-xr-x  2 root root  4096 Apr 18  2022 [01;34mgames[0m/
+drwxr-xr-x  2 root root  4096 Apr 18  2022 [01;34minclude[0m/
+drwxr-xr-x 15 root root  4096 Dec 11 14:07 [01;34mlib[0m/
+drwxr-xr-x  2 root root  4096 Dec 11 14:04 [01;34mlib32[0m/
+drwxr-xr-x  2 root root  4096 Dec 11 14:07 [01;34mlib64[0m/
+drwxr-xr-x  4 root root  4096 Dec 11 14:04 [01;34mlibexec[0m/
+drwxr-xr-x  2 root root  4096 Dec 11 14:04 [01;34mlibx32[0m/
+drwxr-xr-x 10 root root  4096 Dec 11 14:04 [01;34mlocal[0m/
+drwxr-xr-x  2 root root  4096 Dec 11 14:08 [01;34msbin[0m/
+drwxr-xr-x 33 root root  4096 Dec 11 14:04 [01;34mshare[0m/
+drwxr-xr-x  2 root root  4096 Apr 18  2022 [01;34msrc[0m/
+[?2004h]0;root@feac31a3e8fb: /usrroot@feac31a3e8fb:/usr# cd src
+[?2004l[?2004h]0;root@feac31a3e8fb: /usr/srcroot@feac31a3e8fb:/usr/src# ll
+[?2004ltotal 8
+drwxr-xr-x  2 root root 4096 Apr 18  2022 [0m[01;34m.[0m/
+drwxr-xr-x 14 root root 4096 Dec 11 14:04 [01;34m..[0m/
+[?2004h]0;root@feac31a3e8fb: /usr/srcroot@feac31a3e8fb:/usr/src# mkdir app
+[?2004l[?2004h]0;root@feac31a3e8fb: /usr/srcroot@feac31a3e8fb:/usr/src# cd app
+[?2004l[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# rouch index.js
+[?2004lbash: rouch: command not found
+[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# touch index.js
+[?2004l[?2004h]0;root@feac31a3e8fb: /usr/src/approot@feac31a3e8fb:/usr/src/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                     ]2;privat@macbook-pro:~/Desktop/Kurser etc/full-stack-part12-containers]1;..12-containers]7;file://macbook-pro.home/Users/privat/Desktop/Kurser%20etc/full-stack-part12-containers\[0m[27m[24m[J[31m*[00m[00m[32m[main][00m[36m[~/Desktop/Kurser etc/full-stack-part12-containers][00m[1m$[0m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on Sat Jan  6 15:35:13 2024
