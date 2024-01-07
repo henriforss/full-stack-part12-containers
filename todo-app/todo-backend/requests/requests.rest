@@ -1,0 +1,28 @@
+# Get all
+GET http://localhost:3000/todos
+
+###
+
+# Put
+POST http://localhost:3000/todos
+Content-Type: application/json
+
+{
+  "text": "This is a test",
+  "done": "false"
+}
+
+###
+
+# Get by id
+GET http://localhost:3000/todos/659a890d7624d5fc8219f89e
+
+###
+
+# Modify by id
+PUT http://localhost:3000/todos/659a890d7624d5fc8219f89e
+Content-Type: application/json
+
+{
+  "done": true
+}
