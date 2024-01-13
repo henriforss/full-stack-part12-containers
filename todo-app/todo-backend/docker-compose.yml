@@ -1,3 +1,5 @@
+# Run with: docker compose up and go check localhost port 3000
+
 version: "3.8" # Version 3.8 is quite new and should work
 
 services:

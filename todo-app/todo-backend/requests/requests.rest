@@ -8,7 +8,7 @@ POST http://localhost:3000/todos
 Content-Type: application/json
 
 {
-  "text": "This is a test",
+  "text": "This is a test 2",
   "done": "false"
 }
 
@@ -26,3 +26,8 @@ Content-Type: application/json
 {
   "done": true
 }
+
+###
+
+# Delete
+DELETE http://localhost:3000/todos/65a2487c64042c7e683bd4ce
