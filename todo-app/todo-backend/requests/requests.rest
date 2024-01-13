@@ -3,12 +3,12 @@ GET http://localhost:3000/todos
 
 ###
 
-# Put
+# Create new
 POST http://localhost:3000/todos
 Content-Type: application/json
 
 {
-  "text": "This is a test 2",
+  "text": "New post",
   "done": "false"
 }
 
