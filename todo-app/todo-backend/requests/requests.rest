@@ -8,7 +8,7 @@ POST http://localhost:3000/todos
 Content-Type: application/json
 
 {
-  "text": "New post",
+  "text": "Test Redis",
   "done": "false"
 }
 
@@ -30,4 +30,4 @@ Content-Type: application/json
 ###
 
 # Delete
-DELETE http://localhost:3000/todos/65a2487c64042c7e683bd4ce
+DELETE http://localhost:3000/todos/65a261761b5daa1773ca6cd9
