@@ -5,7 +5,7 @@ const Todo = ({ todo, onClickDelete, onClickComplete }) => {
 
   const doneInfo = (
     <>
-      <span>This todo is done. Well done!</span>
+      <span>This todo is done. Well done, bro!</span>
       <span>
         <button onClick={onClickDelete(todo)}> Delete </button>
       </span>
