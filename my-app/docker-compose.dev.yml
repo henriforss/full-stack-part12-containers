@@ -1,0 +1,29 @@
+# Run with "docker compose -f docker-compose.dev.yml up", working dev environment, reload to see changes
+
+version: "3.8"
+
+services:
+  server:
+    image: my-app-backend-dev
+    # ports:
+    #   - 3001:3001
+    volumes:
+      - ./backend:/usr/src/app
+
+  app:
+    image: my-app-frontend-dev
+    # ports:
+    #   - 3000:3000
+    volumes:
+      - ./frontend:/usr/src/app
+
+  nginx:
+    image: nginx:1.24
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: my-app-reverse-proxy
+    depends_on:
+      - app
+      - server
